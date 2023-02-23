@@ -8,9 +8,10 @@
   },
   "bugs": "https://github.com/kantord/emuto-cli/issues",
   "dependencies": {
-    "@oclif/command": "^1",
-    "@oclif/config": "^1",
-    "@oclif/plugin-help": "^5",
+    "@oclif/command": "^1.8.22",
+    "@oclif/config": "^1.18.8",
+    "@oclif/plugin-help": "^5.2.5",
+    "ansi-regex": "3.0.1",
     "csv": "^6.2.7",
     "csv-parse": "^5.3.5",
     "emuto": "git+https://github.com/samooth/emuto",
@@ -20,13 +21,13 @@
     "node-emuto": "^0.0.0-development"
   },
   "devDependencies": {
-    "@oclif/test": "^2",
+    "@oclif/test": "^2.3.1",
     "chai": "^4",
     "eslint": "^8.34",
     "eslint-config-oclif": "^4.0",
     "mocha": "^10",
     "nyc": "^15",
-    "semantic-release": "^18.0.1"
+    "semantic-release": "19.0.3"
   },
   "engines": {
     "node": ">=16.0.0"
